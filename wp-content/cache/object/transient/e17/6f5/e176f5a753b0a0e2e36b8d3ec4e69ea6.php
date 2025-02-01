@@ -1,0 +1,1 @@
+¯tžg<?php exit; ?>a:2:{s:7:"content";a:6:{s:3:"url";s:35:"http://localhost/la_vie_des_plantes";s:9:"blog_lang";s:5:"fr_FR";s:7:"blog_id";b:0;s:8:"store_id";s:36:"f635ffef-d20d-4c33-b0fb-44ce8f5726c2";s:14:"products_count";s:1:"3";s:10:"wc_version";s:5:"9.6.0";}s:15:"key_version_all";i:5;}

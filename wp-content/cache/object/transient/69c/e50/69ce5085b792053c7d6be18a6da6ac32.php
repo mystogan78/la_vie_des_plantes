@@ -1,0 +1,1 @@
+ ‘¢g<?php exit; ?>a:2:{s:7:"content";a:2:{s:7:"version";s:10:"1738102539";s:5:"value";O:8:"stdClass":4:{s:15:"customers_count";i:0;s:16:"avg_orders_count";d:0;s:15:"avg_total_spend";d:0;s:19:"avg_avg_order_value";d:0;}}s:15:"key_version_all";i:3;}

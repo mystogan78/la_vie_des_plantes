@@ -1,0 +1,307 @@
+# Translation of Plugins - Super Progressive Web Apps - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Super Progressive Web Apps - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-23 15:35:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Super Progressive Web Apps - Stable (latest release)\n"
+
+#: admin/admin-ui-setup.php:258
+msgid "Display"
+msgstr "Display"
+
+#: admin/admin-ui-render-settings.php:595
+msgid "Browser"
+msgstr "Browser"
+
+#: admin/admin-ui-render-settings.php:592
+msgid "Minimal UI"
+msgstr "Minimal UI"
+
+#: admin/admin-ui-render-settings.php:589
+#: admin/admin-ui-render-settings.php:602
+msgid "Standalone"
+msgstr "Standalone"
+
+#: admin/admin-ui-render-settings.php:586
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: admin/basic-setup.php:123
+msgid "Thank you for installing <strong>Super Progressive Web Apps!</strong> "
+msgstr "Thank you for installing <strong>Super Progressive Web Apps!</strong> "
+
+#: admin/basic-setup.php:118
+msgid "Your app is ready with the default settings. "
+msgstr "Your app is ready with the default settings. "
+
+#: admin/admin-ui-render-settings.php:110
+#: admin/admin-ui-render-settings.php:128
+#: admin/admin-ui-render-settings.php:152
+#: admin/admin-ui-render-settings.php:177
+msgid "Choose Icon"
+msgstr "Choose Icon"
+
+#. Plugin URI of the plugin
+#: superpwa.php
+msgid "https://superpwa.com/?utm_source=superpwa-plugin&utm_medium=plugin-uri"
+msgstr "https://superpwa.com/?utm_source=superpwa-plugin&utm_medium=plugin-uri"
+
+#: admin/admin-ui-render-addons.php:91
+msgid "More Details &rarr;"
+msgstr "More Details &rarr;"
+
+#: admin/admin-ui-render-addons.php:74
+msgid "Set the Application Icon and Splash Screen Icon as Apple Touch Icons for compatibility with iOS devices."
+msgstr "Set the Application Icon and Splash Screen Icon as Apple Touch Icons for compatibility with iOS devices."
+
+#: admin/admin-ui-render-addons.php:54 admin/admin-ui-render-addons.php:67
+#: admin/admin-ui-render-addons.php:104 admin/admin-ui-render-addons.php:117
+#: admin/admin-ui-render-addons.php:130 admin/admin-ui-render-addons.php:143
+#: admin/admin-ui-render-addons.php:156 admin/admin-ui-render-addons.php:181
+#: admin/admin-ui-render-addons.php:194 admin/admin-ui-render-addons.php:207
+#: admin/admin-ui-render-addons.php:220 admin/admin-ui-render-addons.php:233
+#: admin/admin-ui-render-addons.php:246 admin/admin-ui-render-addons.php:259
+#: admin/admin-ui-render-addons.php:271 admin/admin-ui-render-addons.php:284
+msgid "Customize Settings &rarr;"
+msgstr "Customise Settings &rarr;"
+
+#: admin/admin-ui-render-addons.php:605
+msgid "Install"
+msgstr "Install"
+
+#: admin/admin-ui-render-addons.php:429 admin/admin-ui-render-addons.php:434
+#: admin/admin-ui-render-addons.php:593
+msgid "Activate"
+msgstr "Activate"
+
+#: functions/common.php:454
+msgid "we'll share our <code>root</code> password before we share your email with anyone else."
+msgstr "we'll share our <code>root</code> password before we share your email with anyone else."
+
+#: functions/common.php:450
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: functions/common.php:448
+msgid "Enter your email"
+msgstr "Enter your email"
+
+#: functions/common.php:438
+msgid "SuperPWA Newsletter"
+msgstr "SuperPWA Newsletter"
+
+#: admin/admin-ui-render-addons.php:461
+msgid "More Details"
+msgstr "More Details"
+
+#: admin/admin-ui-render-addons.php:437 admin/admin-ui-render-addons.php:597
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: admin/admin-ui-render-addons.php:360
+msgid "Add-Ons extend the functionality of SuperPWA."
+msgstr "Add-Ons extend the functionality of SuperPWA."
+
+#: admin/admin-ui-render-addons.php:346
+msgid "Add-On deactivated"
+msgstr "Add-On deactivated"
+
+#: admin/admin-ui-render-addons.php:266
+msgid "Track visits from your app by adding UTM tracking parameters to the Start Page URL."
+msgstr "Track visits from your app by adding UTM tracking parameters to the Start Page URL."
+
+#: addons/caching-strategies.php:482 addons/pull-to-refresh.php:296
+#: addons/utm-tracking.php:387 admin/admin-ui-render-settings.php:989
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: addons/utm-tracking.php:200
+msgid "Campaign Content"
+msgstr "Campaign Content"
+
+#: addons/utm-tracking.php:191
+msgid "Campaign Term"
+msgstr "Campaign Term"
+
+#: addons/utm-tracking.php:182
+msgid "Campaign Name"
+msgstr "Campaign Name"
+
+#: addons/utm-tracking.php:173
+msgid "Campaign Medium"
+msgstr "Campaign Medium"
+
+#: addons/utm-tracking.php:164
+msgid "Campaign Source"
+msgstr "Campaign Source"
+
+#: addons/utm-tracking.php:155
+msgid "Current Start URL"
+msgstr "Current Start URL"
+
+#: addons/utm-tracking.php:399 admin/admin-ui-render-addons.php:265
+#: admin/admin-ui-setup.php:41
+msgid "UTM Tracking"
+msgstr "UTM Tracking"
+
+#: admin/basic-setup.php:399
+msgid "Demo"
+msgstr "Demo"
+
+#: admin/admin-ui-render-settings.php:89
+msgid "A brief description of what your app is about."
+msgstr "A brief description of what your app is about."
+
+#: admin/admin-ui-setup.php:145
+msgid "Description"
+msgstr "Description"
+
+#: admin/admin-ui-render-settings.php:421
+msgid "Do not check this if your start page is the homepage, the blog index, or the archives page. AMP for WordPress does not create AMP versions for these pages."
+msgstr "Do not check this if your start page is the homepage, the blog index, or the archives page. AMP for WordPress does not create AMP versions for these pages."
+
+#: admin/admin-ui-render-settings.php:557
+msgid "Landscape"
+msgstr "Landscape"
+
+#: admin/admin-ui-render-settings.php:554
+msgid "Portrait"
+msgstr "Portrait"
+
+#: admin/admin-ui-render-settings.php:551
+#: admin/admin-ui-render-settings.php:563
+msgid "Follow Device Orientation"
+msgstr "Follow Device Orientation"
+
+#: admin/admin-ui-setup.php:249
+msgid "Orientation"
+msgstr "Orientation"
+
+#: admin/admin-ui-setup.php:213
+msgid "Theme Color"
+msgstr "Theme Colour"
+
+#: admin/admin-ui-setup.php:178
+msgid "Splash Screen Icon"
+msgstr "Splash Screen Icon"
+
+#: admin/admin-ui-render-settings.php:415
+msgid "Use AMP version of the start page."
+msgstr "Use AMP version of the start page."
+
+#: admin/admin-ui-render-settings.php:339
+msgid "&mdash; Homepage &mdash;"
+msgstr "&mdash; Homepage &mdash;"
+
+#: admin/admin-ui-setup.php:319
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: admin/admin-ui-setup.php:310
+msgid "Service Worker"
+msgstr "Service Worker"
+
+#: admin/admin-ui-setup.php:293
+msgid "Status"
+msgstr "Status"
+
+#: addons/utm-tracking.php:247 admin/admin-ui-setup.php:222
+msgid "Start Page"
+msgstr "Start Page"
+
+#: admin/admin-ui-setup.php:136
+msgid "Application Short Name"
+msgstr "Application Short Name"
+
+#: admin/admin-ui-setup.php:127
+msgid "Application Name"
+msgstr "Application Name"
+
+#: admin/admin-ui-render-settings.php:285
+msgid "Background color of the splash screen."
+msgstr "Background colour of the splash screen."
+
+#: admin/admin-ui-render-settings.php:523
+msgid "&mdash; Default &mdash;"
+msgstr "&mdash; Default &mdash;"
+
+#: admin/admin-ui-setup.php:240
+msgid "Offline Page"
+msgstr "Offline Page"
+
+#. Description of the plugin
+#: superpwa.php
+msgid "Convert your WordPress website into a Progressive Web App"
+msgstr "Convert your WordPress website into a Progressive Web App"
+
+#: admin/admin-ui-render-addons.php:445 admin/admin-ui-render-addons.php:449
+#: admin/admin-ui-render-settings.php:1025 admin/admin-ui-setup.php:32
+#: admin/basic-setup.php:372 admin/basic-setup.php:379 functions/common.php:370
+msgid "Settings"
+msgstr "Settings"
+
+#: addons/apple-touch-icons.php:386 addons/caching-strategies.php:507
+#: addons/pull-to-refresh.php:321 addons/utm-tracking.php:412
+#: admin/admin-ui-render-settings.php:1046
+#: admin/admin-ui-render-settings.php:1058
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: admin/admin-ui-setup.php:154
+msgid "Application Icon"
+msgstr "Application Icon"
+
+#: admin/admin-ui-setup.php:301
+msgid "Manifest"
+msgstr "Manifest"
+
+#. Author of the plugin
+#: superpwa.php 3rd-party/onesignal.php:232 admin/admin-ui-setup.php:27
+#: admin/basic-setup.php:131 admin/basic-setup.php:165
+msgid "SuperPWA"
+msgstr "SuperPWA"
+
+#. Plugin Name of the plugin
+#: superpwa.php admin/admin-ui-render-addons.php:358
+#: admin/admin-ui-render-settings.php:1016 admin/admin-ui-setup.php:27
+#: admin/admin-ui-setup.php:32 admin/admin-ui-setup.php:37
+#: admin/admin-ui-setup.php:41 admin/admin-ui-setup.php:46
+#: admin/admin-ui-setup.php:56 admin/admin-ui-setup.php:91
+#: admin/admin-ui-setup.php:93
+msgid "Super Progressive Web Apps"
+msgstr "Super Progressive Web Apps"
+
+#: addons/apple-touch-icons.php:162 admin/admin-ui-render-settings.php:305
+#: admin/admin-ui-setup.php:204
+msgid "Background Color"
+msgstr "Background Colour"
+
+#: admin/admin-ui-render-settings.php:363
+msgid "Specify the page to load when the application is launched from a device. Current start page is"
+msgstr "Specify the page to load when the application is launched from a device. Current start page is"
+
+#: admin/admin-ui-render-settings.php:530
+msgid "Offline page is displayed when the device is offline and the requested page is not already cached. Current offline page is"
+msgstr "Offline page is displayed when the device is offline and the requested page is not already cached. Current offline page is"
+
+#: admin/admin-ui-render-settings.php:713
+msgid "Service worker generated successfully"
+msgstr "Service worker generated successfully"
+
+#: admin/admin-ui-render-settings.php:733
+msgid "Your website is served over HTTPS"
+msgstr "Your website is served over HTTPS"
+
+#: admin/admin-ui-render-settings.php:737
+msgid "Progressive Web Apps require that your website is served over HTTPS. Please contact your host to add a SSL certificate to your domain"
+msgstr "Progressive Web Apps require that your website is served over HTTPS. Please contact your host to add a SSL certificate to your domain"
+
+#: admin/admin-ui-render-addons.php:461
+msgid "More information about"
+msgstr "More information about"
