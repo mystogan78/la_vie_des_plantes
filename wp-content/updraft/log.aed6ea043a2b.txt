@@ -1,0 +1,759 @@
+0000.001 (0) Opened log file at time: Sat, 01 Feb 2025 19:00:40 +0000 on http://localhost/la_vie_des_plantes
+0000.048 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.3.14 (apache2handler, Windows NT IBRA78 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.62 (Win64) PHP/8.3.14 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 98M | 104M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.067 (0) Free space on disk containing Updraft's temporary directory: 409638.6 MB
+0000.102 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.131 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.151 (0) Set semaphore last lock (d) time to 2025-02-01 19:00:40
+0000.168 (0) Semaphore lock (d) complete
+0000.205 (0) Backup run: resumption=0, nonce=aed6ea043a2b, file_nonce=aed6ea043a2b begun at=1738436440 (0s ago), job type=backup
+0000.241 (0) Scheduling a resumption (1) after 300 seconds (1738436740) in case this run gets aborted
+0000.296 (0) This backup run is not intended for files - skipping
+0000.303 (0) Beginning creation of database dump (WordPress DB)
+0000.322 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.444 (0) Table wp_options: Total expected rows (approximate): 1206
+0000.618 (0) Table wp_options: Rows added in this batch (next record: 6406): 1202 (uncompressed bytes in this segment=3980631) in 0.20 seconds
+0000.704 (0) Table wp_options: finishing file(s) (2, 426.4 KB)
+0000.749 (0) Table wp_users: Total expected rows (via COUNT): 2
+0000.769 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.808 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1327) in 0.06 seconds
+0000.870 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0000.933 (0) Table wp_usermeta: Total expected rows (via COUNT): 122
+0000.955 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.999 (0) Table wp_usermeta: Rows added in this batch (next record: 137): 122 (uncompressed bytes in this segment=22081) in 0.09 seconds
+0001.076 (0) Table wp_usermeta: finishing file(s) (2, 6.5 KB)
+0001.143 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1277
+0001.259 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1321): 1307 (uncompressed bytes in this segment=607700) in 0.14 seconds
+0001.261 (0) PHP event: code E_WARNING: fopen(C:\wamp64\www\la_vie_des_plantes\wp-content\cache\object\options\942/827/94282765f4d9130466e8b2f596686400.php): Failed to open stream: No such file or directory (line 156, C:\wamp64\www\la_vie_des_plantes\wp-content\plugins\w3-total-cache\Cache_File.php)
+0001.356 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 39.1 KB)
+0001.394 (0) PHP event: code E_WARNING: unserialize(): Error at offset 213202 of 475118 bytes (line 138, C:\wamp64\www\la_vie_des_plantes\wp-content\plugins\w3-total-cache\Cache_File.php)
+0001.424 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0001.457 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.04 seconds
+0001.500 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0001.541 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 12
+0001.558 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.598 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=934) in 0.06 seconds
+0001.650 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0001.692 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 3900
+0001.860 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3916): 3900 (uncompressed bytes in this segment=347632) in 0.17 seconds
+0001.953 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 34.3 KB)
+0002.013 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0002.047 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.06 seconds
+0002.121 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0002.164 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0002.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.220 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2037) in 0.06 seconds
+0002.279 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0002.319 (0) Table wp_itsec_bans: Total expected rows (via COUNT): 0
+0002.355 (0) Table wp_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.04 seconds
+0002.411 (0) Table wp_itsec_bans: finishing file(s) (2, 0.4 KB)
+0002.458 (0) Table wp_itsec_dashboard_events: Total expected rows (via COUNT): 0
+0002.491 (0) Table wp_itsec_dashboard_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.04 seconds
+0002.545 (0) Table wp_itsec_dashboard_events: finishing file(s) (2, 0.4 KB)
+0002.599 (0) Table wp_itsec_dashboard_lockouts: Total expected rows (via COUNT): 0
+0002.635 (0) Table wp_itsec_dashboard_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.04 seconds
+0002.685 (0) Table wp_itsec_dashboard_lockouts: finishing file(s) (2, 0.4 KB)
+0002.757 (0) Table wp_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0002.788 (0) Table wp_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=820) in 0.05 seconds
+0002.849 (0) Table wp_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0002.913 (0) Table wp_itsec_fingerprints: Total expected rows (via COUNT): 0
+0002.946 (0) Table wp_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1066) in 0.05 seconds
+0003.006 (0) Table wp_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0003.049 (0) Table wp_itsec_firewall_rules: Total expected rows (via COUNT): 0
+0003.087 (0) Table wp_itsec_firewall_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.04 seconds
+0003.138 (0) Table wp_itsec_firewall_rules: finishing file(s) (2, 0.4 KB)
+0003.185 (0) Table wp_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0003.216 (0) Table wp_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=877) in 0.04 seconds
+0003.265 (0) Table wp_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0003.312 (0) Table wp_itsec_lockouts: Total expected rows (via COUNT): 0
+0003.346 (0) Table wp_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1097) in 0.04 seconds
+0003.393 (0) Table wp_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0003.464 (0) Table wp_itsec_logs: Total expected rows (via COUNT): 2
+0003.487 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.542 (0) Table wp_itsec_logs: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1818) in 0.10 seconds
+0003.622 (0) Table wp_itsec_logs: finishing file(s) (2, 0.7 KB)
+0003.665 (0) Table wp_itsec_mutexes: Total expected rows (via COUNT): 0
+0003.704 (0) Table wp_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.04 seconds
+0003.763 (0) Table wp_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0003.808 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0003.842 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=643) in 0.04 seconds
+0003.898 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0003.941 (0) Table wp_itsec_temp: Total expected rows (via COUNT): 0
+0003.973 (0) Table wp_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.04 seconds
+0004.016 (0) Table wp_itsec_temp: finishing file(s) (2, 0.4 KB)
+0004.059 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 0
+0004.092 (0) Table wp_itsec_user_groups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=691) in 0.04 seconds
+0004.140 (0) Table wp_itsec_user_groups: finishing file(s) (2, 0.4 KB)
+0004.180 (0) Table wp_itsec_vulnerabilities: Total expected rows (approximate): 0
+0004.210 (0) Table wp_itsec_vulnerabilities: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=885) in 0.03 seconds
+0004.254 (0) Table wp_itsec_vulnerabilities: finishing file(s) (2, 0.4 KB)
+0004.295 (0) Table wp_links: Total expected rows (via COUNT): 0
+0004.325 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.03 seconds
+0004.365 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0004.422 (0) Table wp_postmeta: Total expected rows (via COUNT): 478
+0004.439 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.493 (0) Table wp_postmeta: Rows added in this batch (next record: 2475): 478 (uncompressed bytes in this segment=64155) in 0.09 seconds
+0004.581 (0) Table wp_postmeta: finishing file(s) (2, 12.3 KB)
+0004.643 (0) Table wp_posts: Total expected rows (via COUNT): 92
+0004.662 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.714 (0) Table wp_posts: Rows added in this batch (next record: 416): 92 (uncompressed bytes in this segment=66102) in 0.09 seconds
+0004.794 (0) Table wp_posts: finishing file(s) (2, 12.4 KB)
+0004.837 (0) Table wp_term_relationships: Total expected rows (approximate): 42
+0004.874 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 42 (uncompressed bytes in this segment=1276) in 0.04 seconds
+0004.935 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0004.998 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 24
+0005.016 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.054 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 27): 24 (uncompressed bytes in this segment=1946) in 0.08 seconds
+0005.128 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0005.185 (0) Table wp_termmeta: Total expected rows (via COUNT): 7
+0005.203 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.233 (0) Table wp_termmeta: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=3952) in 0.07 seconds
+0005.301 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0005.347 (0) Table wp_terms: Total expected rows (via COUNT): 24
+0005.366 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.400 (0) Table wp_terms: Rows added in this batch (next record: 27): 24 (uncompressed bytes in this segment=1537) in 0.06 seconds
+0005.445 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0005.490 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 2
+0005.525 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=600) in 0.04 seconds
+0005.583 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0005.625 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 17
+0005.641 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.678 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 201): 17 (uncompressed bytes in this segment=2941) in 0.06 seconds
+0005.732 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0005.772 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0005.808 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.04 seconds
+0005.866 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0005.912 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0005.930 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.967 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.06 seconds
+0006.025 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0006.090 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 135
+0006.108 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.151 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 189): 135 (uncompressed bytes in this segment=6059) in 0.08 seconds
+0006.228 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 1.3 KB)
+0006.286 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0006.325 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.06 seconds
+0006.407 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0006.454 (0) Table wp_dokan_order_stats: Total expected rows (via COUNT): 1
+0006.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.510 (0) Table wp_dokan_order_stats: Rows added in this batch (next record: 238): 1 (uncompressed bytes in this segment=1337) in 0.06 seconds
+0006.572 (0) Table wp_dokan_order_stats: finishing file(s) (2, 0.5 KB)
+0006.623 (0) Table wp_dokan_orders: Total expected rows (via COUNT): 1
+0006.640 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.671 (0) Table wp_dokan_orders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=799) in 0.05 seconds
+0006.713 (0) Table wp_dokan_orders: finishing file(s) (2, 0.4 KB)
+0006.754 (0) Table wp_dokan_refund: Total expected rows (via COUNT): 0
+0006.788 (0) Table wp_dokan_refund: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=891) in 0.04 seconds
+0006.847 (0) Table wp_dokan_refund: finishing file(s) (2, 0.5 KB)
+0006.888 (0) Table wp_dokan_reverse_withdrawal: Total expected rows (via COUNT): 0
+0006.917 (0) Table wp_dokan_reverse_withdrawal: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1068) in 0.03 seconds
+0006.965 (0) Table wp_dokan_reverse_withdrawal: finishing file(s) (2, 0.5 KB)
+0007.011 (0) Table wp_dokan_vendor_balance: Total expected rows (via COUNT): 1
+0007.028 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.064 (0) Table wp_dokan_vendor_balance: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1074) in 0.06 seconds
+0007.123 (0) Table wp_dokan_vendor_balance: finishing file(s) (2, 0.5 KB)
+0007.188 (0) Table wp_dokan_withdraw: Total expected rows (via COUNT): 0
+0007.226 (0) Table wp_dokan_withdraw: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.06 seconds
+0007.306 (0) Table wp_dokan_withdraw: finishing file(s) (2, 0.4 KB)
+0007.363 (0) Table wp_duplicator_packages: Total expected rows (via COUNT): 1
+0007.384 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.418 (0) Table wp_duplicator_packages: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=30886) in 0.08 seconds
+0007.492 (0) Table wp_duplicator_packages: finishing file(s) (2, 6.8 KB)
+0007.535 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0007.569 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.04 seconds
+0007.629 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0007.671 (0) Table wp_eb_form_settings: Total expected rows (via COUNT): 0
+0007.700 (0) Table wp_eb_form_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.03 seconds
+0007.746 (0) Table wp_eb_form_settings: finishing file(s) (2, 0.4 KB)
+0007.790 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0007.819 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.03 seconds
+0007.863 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0007.905 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0008.042 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=113833) in 0.14 seconds
+0008.122 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 23.9 KB)
+0008.167 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0008.199 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0.04 seconds
+0008.243 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0008.283 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0008.319 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.04 seconds
+0008.364 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0008.408 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0008.438 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=599) in 0.03 seconds
+0008.480 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.4 KB)
+0008.524 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0008.553 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.03 seconds
+0008.594 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0008.637 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0008.670 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.04 seconds
+0008.710 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0008.775 (0) Table wp_mailpoet_automation_run_logs: Total expected rows (via COUNT): 0
+0008.806 (0) Table wp_mailpoet_automation_run_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.05 seconds
+0008.865 (0) Table wp_mailpoet_automation_run_logs: finishing file(s) (2, 0.5 KB)
+0008.930 (0) Table wp_mailpoet_automation_run_subjects: Total expected rows (via COUNT): 0
+0008.966 (0) Table wp_mailpoet_automation_run_subjects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=767) in 0.06 seconds
+0009.041 (0) Table wp_mailpoet_automation_run_subjects: finishing file(s) (2, 0.4 KB)
+0009.084 (0) Table wp_mailpoet_automation_runs: Total expected rows (via COUNT): 0
+0009.115 (0) Table wp_mailpoet_automation_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.03 seconds
+0009.162 (0) Table wp_mailpoet_automation_runs: finishing file(s) (2, 0.5 KB)
+0009.205 (0) Table wp_mailpoet_automation_triggers: Total expected rows (approximate): 0
+0009.236 (0) Table wp_mailpoet_automation_triggers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=579) in 0.03 seconds
+0009.282 (0) Table wp_mailpoet_automation_triggers: finishing file(s) (2, 0.3 KB)
+0009.345 (0) Table wp_mailpoet_automation_versions: Total expected rows (via COUNT): 0
+0009.380 (0) Table wp_mailpoet_automation_versions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.06 seconds
+0009.446 (0) Table wp_mailpoet_automation_versions: finishing file(s) (2, 0.4 KB)
+0009.515 (0) Table wp_mailpoet_automations: Total expected rows (via COUNT): 0
+0009.551 (0) Table wp_mailpoet_automations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.06 seconds
+0009.615 (0) Table wp_mailpoet_automations: finishing file(s) (2, 0.4 KB)
+0009.683 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0009.711 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.05 seconds
+0009.770 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0009.815 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0009.844 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=877) in 0.03 seconds
+0009.889 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0009.931 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0009.962 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=717) in 0.03 seconds
+0010.005 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0010.065 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0010.098 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=800) in 0.05 seconds
+0010.173 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0010.236 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0010.268 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.05 seconds
+0010.328 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0010.371 (0) Table wp_mailpoet_migrations: Total expected rows (via COUNT): 35
+0010.390 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.431 (0) Table wp_mailpoet_migrations: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=4024) in 0.06 seconds
+0010.495 (0) Table wp_mailpoet_migrations: finishing file(s) (2, 0.9 KB)
+0010.549 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0010.596 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.05 seconds
+0010.657 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0010.724 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0010.760 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=851) in 0.06 seconds
+0010.831 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0010.880 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 31
+0010.902 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.947 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=2884) in 0.07 seconds
+0011.015 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.8 KB)
+0011.060 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0011.103 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.05 seconds
+0011.163 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0011.215 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0011.251 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=803) in 0.04 seconds
+0011.298 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0011.363 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 147
+0011.386 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.477 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 149): 147 (uncompressed bytes in this segment=2146331) in 0.14 seconds
+0011.572 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 127.8 KB)
+0011.638 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 0
+0011.683 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1472) in 0.07 seconds
+0011.763 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 0.6 KB)
+0011.810 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0011.845 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=899) in 0.04 seconds
+0011.894 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0011.967 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 46
+0011.989 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.039 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=8888) in 0.10 seconds
+0012.122 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 1.5 KB)
+0012.174 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0012.193 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.234 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1694) in 0.07 seconds
+0012.302 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.7 KB)
+0012.364 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0012.402 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1178) in 0.06 seconds
+0012.481 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0012.554 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 13
+0012.575 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.618 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=3092) in 0.09 seconds
+0012.701 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.2 KB)
+0012.755 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0012.801 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.05 seconds
+0012.872 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0012.931 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0012.967 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1127) in 0.04 seconds
+0013.015 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0013.062 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0013.097 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.04 seconds
+0013.144 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0013.193 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0013.229 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=809) in 0.04 seconds
+0013.283 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0013.332 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0013.366 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.04 seconds
+0013.415 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.4 KB)
+0013.463 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0013.499 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1017) in 0.04 seconds
+0013.550 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0013.601 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0013.640 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1327) in 0.04 seconds
+0013.692 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.6 KB)
+0013.745 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0013.781 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.04 seconds
+0013.843 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0013.892 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0013.950 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.06 seconds
+0014.000 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0014.053 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0014.089 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=564) in 0.04 seconds
+0014.143 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.3 KB)
+0014.190 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 2
+0014.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.251 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1105) in 0.07 seconds
+0014.317 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0014.368 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0014.408 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.04 seconds
+0014.472 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0014.536 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 2
+0014.558 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.600 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3275) in 0.09 seconds
+0014.691 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1 KB)
+0014.738 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0014.779 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.05 seconds
+0014.845 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0014.892 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0014.924 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.04 seconds
+0014.969 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0015.018 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0015.053 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.04 seconds
+0015.105 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0015.151 (0) Table wp_site_mail_logs: Total expected rows (via COUNT): 0
+0015.185 (0) Table wp_site_mail_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=932) in 0.04 seconds
+0015.229 (0) Table wp_site_mail_logs: finishing file(s) (2, 0.5 KB)
+0015.271 (0) Table wp_site_mail_statuses: Total expected rows (via COUNT): 0
+0015.303 (0) Table wp_site_mail_statuses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=983) in 0.04 seconds
+0015.352 (0) Table wp_site_mail_statuses: finishing file(s) (2, 0.5 KB)
+0015.424 (0) Table wp_tm_taskmeta: Total expected rows (via COUNT): 0
+0015.462 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.06 seconds
+0015.537 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0015.579 (0) Table wp_tm_tasks: Total expected rows (via COUNT): 0
+0015.617 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.04 seconds
+0015.678 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0015.747 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 94
+0015.771 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.818 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 2644): 94 (uncompressed bytes in this segment=18688) in 0.09 seconds
+0015.897 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.2 KB)
+0015.966 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 67
+0015.985 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.030 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=32987) in 0.09 seconds
+0016.098 (0) Table wp_wc_admin_notes: finishing file(s) (2, 7.6 KB)
+0016.152 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 6
+0016.171 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.212 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1590) in 0.07 seconds
+0016.276 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0016.322 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0016.363 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.05 seconds
+0016.425 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0016.488 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0016.521 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1058) in 0.04 seconds
+0016.568 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0016.614 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0016.650 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.04 seconds
+0016.697 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0016.741 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 1
+0016.760 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.805 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1611) in 0.07 seconds
+0016.867 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.7 KB)
+0016.918 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 11
+0016.936 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.970 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 25): 11 (uncompressed bytes in this segment=2219) in 0.06 seconds
+0017.019 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.7 KB)
+0017.063 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 8
+0017.082 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.113 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 416): 8 (uncompressed bytes in this segment=2226) in 0.05 seconds
+0017.157 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.8 KB)
+0017.204 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 6
+0017.242 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=1165) in 0.04 seconds
+0017.301 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.5 KB)
+0017.345 (0) Table wp_wc_orders: Total expected rows (via COUNT): 1
+0017.363 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.403 (0) Table wp_wc_orders: Rows added in this batch (next record: 167): 1 (uncompressed bytes in this segment=1604) in 0.06 seconds
+0017.462 (0) Table wp_wc_orders: finishing file(s) (2, 0.6 KB)
+0017.509 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 3
+0017.529 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.565 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=901) in 0.06 seconds
+0017.616 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.5 KB)
+0017.668 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0017.705 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.04 seconds
+0017.768 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0017.817 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0017.835 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.874 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=901) in 0.06 seconds
+0017.931 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0017.980 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0018.024 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.05 seconds
+0018.083 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0018.130 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0018.165 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.04 seconds
+0018.216 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0018.283 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 3
+0018.302 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.343 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1613) in 0.08 seconds
+0018.425 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.8 KB)
+0018.468 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0018.505 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.04 seconds
+0018.562 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0018.609 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0018.647 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.04 seconds
+0018.702 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0018.769 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0018.800 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.06 seconds
+0018.863 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0018.910 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 17
+0018.931 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.969 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 26): 17 (uncompressed bytes in this segment=2003) in 0.06 seconds
+0019.026 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0019.072 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0019.109 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.04 seconds
+0019.173 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0019.236 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 9
+0019.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.297 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 24): 9 (uncompressed bytes in this segment=15464) in 0.08 seconds
+0019.376 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 2 KB)
+0019.426 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 2
+0019.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.480 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=935) in 0.06 seconds
+0019.531 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0019.581 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 2
+0019.602 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.645 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=881) in 0.07 seconds
+0019.700 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0019.746 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0019.766 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.802 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=688) in 0.06 seconds
+0019.849 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0019.899 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0019.936 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.04 seconds
+0020.005 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0020.049 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 1
+0020.068 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.107 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1263) in 0.06 seconds
+0020.162 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0020.224 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 1
+0020.241 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.273 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=826) in 0.07 seconds
+0020.339 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0020.422 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0020.459 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.06 seconds
+0020.545 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0020.592 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0020.632 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.04 seconds
+0020.698 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0020.763 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0020.781 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.821 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 16): 9 (uncompressed bytes in this segment=1282) in 0.08 seconds
+0020.898 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0020.942 (0) Table wp_wpo_404_detector: Total expected rows (via COUNT): 0
+0020.986 (0) Table wp_wpo_404_detector: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=807) in 0.05 seconds
+0021.056 (0) Table wp_wpo_404_detector: finishing file(s) (2, 0.4 KB)
+0021.124 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 39
+0021.144 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.190 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 65): 39 (uncompressed bytes in this segment=29757) in 0.09 seconds
+0021.276 (0) Table wp_yoast_indexable: finishing file(s) (2, 4.5 KB)
+0021.318 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 37
+0021.366 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 37 (uncompressed bytes in this segment=1387) in 0.05 seconds
+0021.423 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0021.467 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0021.485 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.522 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.06 seconds
+0021.581 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0021.628 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 6
+0021.647 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.684 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1363) in 0.06 seconds
+0021.732 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0021.780 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 5
+0021.798 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.832 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 19): 5 (uncompressed bytes in this segment=1769) in 0.06 seconds
+0021.878 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.7 KB)
+0021.897 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\la_vie_des_plantes/wp-content/updraft/backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db.gz (line 1923, C:\wamp64\www\la_vie_des_plantes\wp-content\plugins\updraftplus\backup.php)
+0021.932 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_options.table.tmpr6407.gz (1/134/fopen): adding to final database dump
+0021.958 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_options.table.gz (2/134/fopen): adding to final database dump
+0021.979 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_users.table.tmpr3.gz (3/134/fopen): adding to final database dump
+0022.000 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_users.table.gz (4/134/fopen): adding to final database dump
+0022.021 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_usermeta.table.tmpr138.gz (5/134/fopen): adding to final database dump
+0022.041 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_usermeta.table.gz (6/134/fopen): adding to final database dump
+0022.061 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_actions.table.tmpr1322.gz (7/134/fopen): adding to final database dump
+0022.083 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_actions.table.gz (8/134/fopen): adding to final database dump
+0022.104 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/134/fopen): adding to final database dump
+0022.124 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_claims.table.gz (10/134/fopen): adding to final database dump
+0022.143 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_groups.table.tmpr13.gz (11/134/fopen): adding to final database dump
+0022.162 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_groups.table.gz (12/134/fopen): adding to final database dump
+0022.183 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_logs.table.tmpr3917.gz (13/134/fopen): adding to final database dump
+0022.205 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_actionscheduler_logs.table.gz (14/134/fopen): adding to final database dump
+0022.225 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_commentmeta.table.tmpr0.gz (15/134/fopen): adding to final database dump
+0022.245 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_commentmeta.table.gz (16/134/fopen): adding to final database dump
+0022.264 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_comments.table.tmpr2.gz (17/134/fopen): adding to final database dump
+0022.284 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_comments.table.gz (18/134/fopen): adding to final database dump
+0022.303 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_bans.table.tmpr0.gz (19/134/fopen): adding to final database dump
+0022.324 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_bans.table.gz (20/134/fopen): adding to final database dump
+0022.344 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_dashboard_events.table.tmpr0.gz (21/134/fopen): adding to final database dump
+0022.363 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_dashboard_events.table.gz (22/134/fopen): adding to final database dump
+0022.382 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_dashboard_lockouts.table.tmpr0.gz (23/134/fopen): adding to final database dump
+0022.401 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_dashboard_lockouts.table.gz (24/134/fopen): adding to final database dump
+0022.421 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_distributed_storage.table.tmpr0.gz (25/134/fopen): adding to final database dump
+0022.442 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_distributed_storage.table.gz (26/134/fopen): adding to final database dump
+0022.464 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_fingerprints.table.tmpr0.gz (27/134/fopen): adding to final database dump
+0022.488 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_fingerprints.table.gz (28/134/fopen): adding to final database dump
+0022.511 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_firewall_rules.table.tmpr0.gz (29/134/fopen): adding to final database dump
+0022.536 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_firewall_rules.table.gz (30/134/fopen): adding to final database dump
+0022.556 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_geolocation_cache.table.tmpr0.gz (31/134/fopen): adding to final database dump
+0022.577 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_geolocation_cache.table.gz (32/134/fopen): adding to final database dump
+0022.597 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_lockouts.table.tmpr0.gz (33/134/fopen): adding to final database dump
+0022.616 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_lockouts.table.gz (34/134/fopen): adding to final database dump
+0022.637 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_logs.table.tmpr3.gz (35/134/fopen): adding to final database dump
+0022.656 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_logs.table.gz (36/134/fopen): adding to final database dump
+0022.675 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_mutexes.table.tmpr0.gz (37/134/fopen): adding to final database dump
+0022.697 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_mutexes.table.gz (38/134/fopen): adding to final database dump
+0022.724 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_opaque_tokens.table.tmpr1.gz (39/134/fopen): adding to final database dump
+0022.744 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_opaque_tokens.table.gz (40/134/fopen): adding to final database dump
+0022.762 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_temp.table.tmpr0.gz (41/134/fopen): adding to final database dump
+0022.781 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_temp.table.gz (42/134/fopen): adding to final database dump
+0022.800 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_user_groups.table.tmpr1.gz (43/134/fopen): adding to final database dump
+0022.821 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_user_groups.table.gz (44/134/fopen): adding to final database dump
+0022.839 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_vulnerabilities.table.tmpr1.gz (45/134/fopen): adding to final database dump
+0022.859 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_itsec_vulnerabilities.table.gz (46/134/fopen): adding to final database dump
+0022.878 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_links.table.tmpr0.gz (47/134/fopen): adding to final database dump
+0022.899 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_links.table.gz (48/134/fopen): adding to final database dump
+0022.920 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_postmeta.table.tmpr2476.gz (49/134/fopen): adding to final database dump
+0022.940 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_postmeta.table.gz (50/134/fopen): adding to final database dump
+0022.961 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_posts.table.tmpr417.gz (51/134/fopen): adding to final database dump
+0022.980 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_posts.table.gz (52/134/fopen): adding to final database dump
+0022.999 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_term_relationships.table.tmpr100001.gz (53/134/fopen): adding to final database dump
+0023.019 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_term_relationships.table.gz (54/134/fopen): adding to final database dump
+0023.042 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_term_taxonomy.table.tmpr28.gz (55/134/fopen): adding to final database dump
+0023.064 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_term_taxonomy.table.gz (56/134/fopen): adding to final database dump
+0023.085 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_termmeta.table.tmpr8.gz (57/134/fopen): adding to final database dump
+0023.106 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_termmeta.table.gz (58/134/fopen): adding to final database dump
+0023.126 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_terms.table.tmpr28.gz (59/134/fopen): adding to final database dump
+0023.146 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_terms.table.gz (60/134/fopen): adding to final database dump
+0023.164 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_category_lookup.table.tmpr1001.gz (61/134/fopen): adding to final database dump
+0023.184 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_category_lookup.table.gz (62/134/fopen): adding to final database dump
+0023.205 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_meta_lookup.table.tmpr202.gz (63/134/fopen): adding to final database dump
+0023.225 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_meta_lookup.table.gz (64/134/fopen): adding to final database dump
+0023.245 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_reserved_stock.table.tmpr1.gz (65/134/fopen): adding to final database dump
+0023.263 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_reserved_stock.table.gz (66/134/fopen): adding to final database dump
+0023.281 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (67/134/fopen): adding to final database dump
+0023.300 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_tax_rate_classes.table.gz (68/134/fopen): adding to final database dump
+0023.324 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_order_itemmeta.table.tmpr190.gz (69/134/fopen): adding to final database dump
+0023.343 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_order_itemmeta.table.gz (70/134/fopen): adding to final database dump
+0023.364 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (71/134/fopen): adding to final database dump
+0023.383 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_payment_tokenmeta.table.gz (72/134/fopen): adding to final database dump
+0023.404 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_order_stats.table.tmpr239.gz (73/134/fopen): adding to final database dump
+0023.423 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_order_stats.table.gz (74/134/fopen): adding to final database dump
+0023.441 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_orders.table.tmpr2.gz (75/134/fopen): adding to final database dump
+0023.459 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_orders.table.gz (76/134/fopen): adding to final database dump
+0023.480 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_refund.table.tmpr0.gz (77/134/fopen): adding to final database dump
+0023.502 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_refund.table.gz (78/134/fopen): adding to final database dump
+0023.521 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_reverse_withdrawal.table.tmpr0.gz (79/134/fopen): adding to final database dump
+0023.540 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_reverse_withdrawal.table.gz (80/134/fopen): adding to final database dump
+0023.561 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_vendor_balance.table.tmpr2.gz (81/134/fopen): adding to final database dump
+0023.581 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_vendor_balance.table.gz (82/134/fopen): adding to final database dump
+0023.602 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_withdraw.table.tmpr0.gz (83/134/fopen): adding to final database dump
+0023.623 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_dokan_withdraw.table.gz (84/134/fopen): adding to final database dump
+0023.643 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_duplicator_packages.table.tmpr2.gz (85/134/fopen): adding to final database dump
+0023.663 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_duplicator_packages.table.gz (86/134/fopen): adding to final database dump
+0023.681 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_e_events.table.tmpr0.gz (87/134/fopen): adding to final database dump
+0023.707 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_e_events.table.gz (88/134/fopen): adding to final database dump
+0023.725 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_eb_form_settings.table.tmpr0.gz (89/134/fopen): adding to final database dump
+0023.744 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_eb_form_settings.table.gz (90/134/fopen): adding to final database dump
+0023.764 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (91/134/fopen): adding to final database dump
+0023.783 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_attribute_mapping_rules.table.gz (92/134/fopen): adding to final database dump
+0023.804 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (93/134/fopen): adding to final database dump
+0023.825 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_budget_recommendations.table.gz (94/134/fopen): adding to final database dump
+0023.847 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_merchant_issues.table.tmpr0.gz (95/134/fopen): adding to final database dump
+0023.867 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_merchant_issues.table.gz (96/134/fopen): adding to final database dump
+0023.888 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_shipping_rates.table.tmpr0.gz (97/134/fopen): adding to final database dump
+0023.910 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_shipping_rates.table.gz (98/134/fopen): adding to final database dump
+0023.930 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_shipping_times.table.tmpr0.gz (99/134/fopen): adding to final database dump
+0023.966 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_gla_shipping_times.table.gz (100/134/fopen): adding to final database dump
+0023.987 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_litespeed_url.table.tmpr0.gz (101/134/fopen): adding to final database dump
+0024.008 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_litespeed_url.table.gz (102/134/fopen): adding to final database dump
+0024.027 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_litespeed_url_file.table.tmpr0.gz (103/134/fopen): adding to final database dump
+0024.049 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_litespeed_url_file.table.gz (104/134/fopen): adding to final database dump
+0024.072 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_run_logs.table.tmpr0.gz (105/134/fopen): adding to final database dump
+0024.094 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_run_logs.table.gz (106/134/fopen): adding to final database dump
+0024.112 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_run_subjects.table.tmpr0.gz (107/134/fopen): adding to final database dump
+0024.133 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_run_subjects.table.gz (108/134/fopen): adding to final database dump
+0024.152 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_runs.table.tmpr0.gz (109/134/fopen): adding to final database dump
+0024.174 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_runs.table.gz (110/134/fopen): adding to final database dump
+0024.196 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_triggers.table.tmpr1.gz (111/134/fopen): adding to final database dump
+0024.216 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_triggers.table.gz (112/134/fopen): adding to final database dump
+0024.235 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_versions.table.tmpr0.gz (113/134/fopen): adding to final database dump
+0024.256 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automation_versions.table.gz (114/134/fopen): adding to final database dump
+0024.276 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automations.table.tmpr0.gz (115/134/fopen): adding to final database dump
+0024.299 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_automations.table.gz (116/134/fopen): adding to final database dump
+0024.319 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (117/134/fopen): adding to final database dump
+0024.341 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_custom_fields.table.gz (118/134/fopen): adding to final database dump
+0024.361 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (119/134/fopen): adding to final database dump
+0024.382 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (120/134/fopen): adding to final database dump
+0024.406 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (121/134/fopen): adding to final database dump
+0024.427 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_feature_flags.table.gz (122/134/fopen): adding to final database dump
+0024.446 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_forms.table.tmpr0.gz (123/134/fopen): adding to final database dump
+0024.465 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_forms.table.gz (124/134/fopen): adding to final database dump
+0024.485 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_log.table.tmpr0.gz (125/134/fopen): adding to final database dump
+0024.504 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_log.table.gz (126/134/fopen): adding to final database dump
+0024.524 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_migrations.table.tmpr36.gz (127/134/fopen): adding to final database dump
+0024.545 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_migrations.table.gz (128/134/fopen): adding to final database dump
+0024.566 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (129/134/fopen): adding to final database dump
+0024.586 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_links.table.gz (130/134/fopen): adding to final database dump
+0024.606 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (131/134/fopen): adding to final database dump
+0024.626 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_option.table.gz (132/134/fopen): adding to final database dump
+0024.645 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr32.gz (133/134/fopen): adding to final database dump
+0024.670 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_option_fields.table.gz (134/134/fopen): adding to final database dump
+0024.690 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (135/134/fopen): adding to final database dump
+0024.713 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_posts.table.gz (136/134/fopen): adding to final database dump
+0024.732 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (137/134/fopen): adding to final database dump
+0024.754 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_segment.table.gz (138/134/fopen): adding to final database dump
+0024.775 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_templates.table.tmpr150.gz (139/134/fopen): adding to final database dump
+0024.800 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletter_templates.table.gz (140/134/fopen): adding to final database dump
+0024.822 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletters.table.tmpr0.gz (141/134/fopen): adding to final database dump
+0024.846 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_newsletters.table.gz (142/134/fopen): adding to final database dump
+0024.866 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (143/134/fopen): adding to final database dump
+0024.888 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (144/134/fopen): adding to final database dump
+0024.908 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_scheduled_tasks.table.tmpr47.gz (145/134/fopen): adding to final database dump
+0024.929 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_scheduled_tasks.table.gz (146/134/fopen): adding to final database dump
+0024.949 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_segments.table.tmpr4.gz (147/134/fopen): adding to final database dump
+0024.971 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_segments.table.gz (148/134/fopen): adding to final database dump
+0024.991 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (149/134/fopen): adding to final database dump
+0025.010 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_sending_queues.table.gz (150/134/fopen): adding to final database dump
+0025.029 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_settings.table.tmpr14.gz (151/134/fopen): adding to final database dump
+0025.048 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_settings.table.gz (152/134/fopen): adding to final database dump
+0025.070 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (153/134/fopen): adding to final database dump
+0025.095 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_bounces.table.gz (154/134/fopen): adding to final database dump
+0025.120 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (155/134/fopen): adding to final database dump
+0025.145 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_clicks.table.gz (156/134/fopen): adding to final database dump
+0025.167 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (157/134/fopen): adding to final database dump
+0025.196 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_forms.table.gz (158/134/fopen): adding to final database dump
+0025.216 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (159/134/fopen): adding to final database dump
+0025.237 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_newsletters.table.gz (160/134/fopen): adding to final database dump
+0025.257 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (161/134/fopen): adding to final database dump
+0025.274 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_opens.table.gz (162/134/fopen): adding to final database dump
+0025.293 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (163/134/fopen): adding to final database dump
+0025.312 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (164/134/fopen): adding to final database dump
+0025.331 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (165/134/fopen): adding to final database dump
+0025.348 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (166/134/fopen): adding to final database dump
+0025.366 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (167/134/fopen): adding to final database dump
+0025.385 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_stats_notifications.table.gz (168/134/fopen): adding to final database dump
+0025.403 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (169/134/fopen): adding to final database dump
+0025.422 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_custom_field.table.gz (170/134/fopen): adding to final database dump
+0025.442 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (171/134/fopen): adding to final database dump
+0025.462 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_ips.table.gz (172/134/fopen): adding to final database dump
+0025.482 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_segment.table.tmpr3.gz (173/134/fopen): adding to final database dump
+0025.501 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_segment.table.gz (174/134/fopen): adding to final database dump
+0025.520 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (175/134/fopen): adding to final database dump
+0025.540 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscriber_tag.table.gz (176/134/fopen): adding to final database dump
+0025.561 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscribers.table.tmpr3.gz (177/134/fopen): adding to final database dump
+0025.580 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_subscribers.table.gz (178/134/fopen): adding to final database dump
+0025.599 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_tags.table.tmpr0.gz (179/134/fopen): adding to final database dump
+0025.621 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_tags.table.gz (180/134/fopen): adding to final database dump
+0025.639 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (181/134/fopen): adding to final database dump
+0025.658 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_user_agents.table.gz (182/134/fopen): adding to final database dump
+0025.677 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (183/134/fopen): adding to final database dump
+0025.695 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_mailpoet_user_flags.table.gz (184/134/fopen): adding to final database dump
+0025.717 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_site_mail_logs.table.tmpr0.gz (185/134/fopen): adding to final database dump
+0025.737 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_site_mail_logs.table.gz (186/134/fopen): adding to final database dump
+0025.756 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_site_mail_statuses.table.tmpr0.gz (187/134/fopen): adding to final database dump
+0025.778 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_site_mail_statuses.table.gz (188/134/fopen): adding to final database dump
+0025.797 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_tm_taskmeta.table.tmpr0.gz (189/134/fopen): adding to final database dump
+0025.821 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_tm_taskmeta.table.gz (190/134/fopen): adding to final database dump
+0025.843 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_tm_tasks.table.tmpr0.gz (191/134/fopen): adding to final database dump
+0025.866 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_tm_tasks.table.gz (192/134/fopen): adding to final database dump
+0025.886 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_admin_note_actions.table.tmpr2645.gz (193/134/fopen): adding to final database dump
+0025.910 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_admin_note_actions.table.gz (194/134/fopen): adding to final database dump
+0025.930 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_admin_notes.table.tmpr68.gz (195/134/fopen): adding to final database dump
+0025.952 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_admin_notes.table.gz (196/134/fopen): adding to final database dump
+0025.974 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_customer_lookup.table.tmpr7.gz (197/134/fopen): adding to final database dump
+0025.995 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_customer_lookup.table.gz (198/134/fopen): adding to final database dump
+0026.016 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_download_log.table.tmpr0.gz (199/134/fopen): adding to final database dump
+0026.055 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_download_log.table.gz (200/134/fopen): adding to final database dump
+0026.078 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_addresses.table.tmpr0.gz (201/134/fopen): adding to final database dump
+0026.101 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_addresses.table.gz (202/134/fopen): adding to final database dump
+0026.127 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (203/134/fopen): adding to final database dump
+0026.151 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_coupon_lookup.table.gz (204/134/fopen): adding to final database dump
+0026.175 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_operational_data.table.tmpr2.gz (205/134/fopen): adding to final database dump
+0026.197 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_operational_data.table.gz (206/134/fopen): adding to final database dump
+0026.221 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_product_lookup.table.tmpr26.gz (207/134/fopen): adding to final database dump
+0026.240 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_product_lookup.table.gz (208/134/fopen): adding to final database dump
+0026.261 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_stats.table.tmpr417.gz (209/134/fopen): adding to final database dump
+0026.285 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_stats.table.gz (210/134/fopen): adding to final database dump
+0026.309 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_tax_lookup.table.tmpr1001.gz (211/134/fopen): adding to final database dump
+0026.329 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_order_tax_lookup.table.gz (212/134/fopen): adding to final database dump
+0026.350 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_orders.table.tmpr168.gz (213/134/fopen): adding to final database dump
+0026.372 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_orders.table.gz (214/134/fopen): adding to final database dump
+0026.392 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_orders_meta.table.tmpr4.gz (215/134/fopen): adding to final database dump
+0026.414 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_orders_meta.table.gz (216/134/fopen): adding to final database dump
+0026.434 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (217/134/fopen): adding to final database dump
+0026.453 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_attributes_lookup.table.gz (218/134/fopen): adding to final database dump
+0026.475 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_download_directories.table.tmpr3.gz (219/134/fopen): adding to final database dump
+0026.496 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_product_download_directories.table.gz (220/134/fopen): adding to final database dump
+0026.518 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_rate_limits.table.tmpr0.gz (221/134/fopen): adding to final database dump
+0026.554 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_rate_limits.table.gz (222/134/fopen): adding to final database dump
+0026.573 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_webhooks.table.tmpr0.gz (223/134/fopen): adding to final database dump
+0026.591 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wc_webhooks.table.gz (224/134/fopen): adding to final database dump
+0026.612 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_api_keys.table.tmpr4.gz (225/134/fopen): adding to final database dump
+0026.635 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_api_keys.table.gz (226/134/fopen): adding to final database dump
+0026.657 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (227/134/fopen): adding to final database dump
+0026.679 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_attribute_taxonomies.table.gz (228/134/fopen): adding to final database dump
+0026.703 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (229/134/fopen): adding to final database dump
+0026.725 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (230/134/fopen): adding to final database dump
+0026.748 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_log.table.tmpr0.gz (231/134/fopen): adding to final database dump
+0026.769 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_log.table.gz (232/134/fopen): adding to final database dump
+0026.789 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_order_items.table.tmpr27.gz (233/134/fopen): adding to final database dump
+0026.811 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_order_items.table.gz (234/134/fopen): adding to final database dump
+0026.831 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (235/134/fopen): adding to final database dump
+0026.853 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_payment_tokens.table.gz (236/134/fopen): adding to final database dump
+0026.874 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_sessions.table.tmpr25.gz (237/134/fopen): adding to final database dump
+0026.896 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_sessions.table.gz (238/134/fopen): adding to final database dump
+0026.917 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr3.gz (239/134/fopen): adding to final database dump
+0026.938 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zone_locations.table.gz (240/134/fopen): adding to final database dump
+0026.959 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr4.gz (241/134/fopen): adding to final database dump
+0026.981 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zone_methods.table.gz (242/134/fopen): adding to final database dump
+0027.000 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (243/134/fopen): adding to final database dump
+0027.022 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_shipping_zones.table.gz (244/134/fopen): adding to final database dump
+0027.042 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (245/134/fopen): adding to final database dump
+0027.063 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_tax_rate_locations.table.gz (246/134/fopen): adding to final database dump
+0027.081 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_tax_rates.table.tmpr2.gz (247/134/fopen): adding to final database dump
+0027.102 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_woocommerce_tax_rates.table.gz (248/134/fopen): adding to final database dump
+0027.122 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_logs.table.tmpr2.gz (249/134/fopen): adding to final database dump
+0027.142 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_logs.table.gz (250/134/fopen): adding to final database dump
+0027.165 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (251/134/fopen): adding to final database dump
+0027.191 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_payment_meta.table.gz (252/134/fopen): adding to final database dump
+0027.216 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_payments.table.tmpr0.gz (253/134/fopen): adding to final database dump
+0027.237 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_payments.table.gz (254/134/fopen): adding to final database dump
+0027.258 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_tasks_meta.table.tmpr17.gz (255/134/fopen): adding to final database dump
+0027.278 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpforms_tasks_meta.table.gz (256/134/fopen): adding to final database dump
+0027.296 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpo_404_detector.table.tmpr0.gz (257/134/fopen): adding to final database dump
+0027.316 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_wpo_404_detector.table.gz (258/134/fopen): adding to final database dump
+0027.337 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_indexable.table.tmpr66.gz (259/134/fopen): adding to final database dump
+0027.358 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_indexable.table.gz (260/134/fopen): adding to final database dump
+0027.379 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (261/134/fopen): adding to final database dump
+0027.399 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_indexable_hierarchy.table.gz (262/134/fopen): adding to final database dump
+0027.421 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_migrations.table.tmpr25.gz (263/134/fopen): adding to final database dump
+0027.442 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_migrations.table.gz (264/134/fopen): adding to final database dump
+0027.462 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_primary_term.table.tmpr7.gz (265/134/fopen): adding to final database dump
+0027.483 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_primary_term.table.gz (266/134/fopen): adding to final database dump
+0027.506 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_seo_links.table.tmpr20.gz (267/134/fopen): adding to final database dump
+0027.527 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db-table-wp_yoast_seo_links.table.gz (268/134/fopen): adding to final database dump
+0027.568 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db.gz: finished writing out complete database file (765.4 KB)
+0027.728 (0) Total database tables backed up: 134 (backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db.gz, size: 783899, sha1: 85660737016ac45df9a4174edde6172df27e4fa4, sha256: ecaa08bffc04211ba52bf6041b28cf19ca6be2ce1fc0039609027ca7db2ce54c)
+0027.816 (0) backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0027.839 (0) Saving backup history. Total backup size: 765.5 KB
+0027.885 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0027.954 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0027.974 (0) No remote despatch: user chose no remote backup service
+0027.994 (0) Recording as successfully uploaded: backup_2025-02-01-2000_la_vie_des_plantes_aed6ea043a2b-db.gz
+0028.071 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0028.079 (0) Number of backup sets in history: 2; groups (db): 1
+0028.099 (0) Examining (for databases) backup set with group_id=0, nonce=aed6ea043a2b, datestamp=1738436440 (Feb 01 2025 19:00:40)
+0028.122 (0) This backup set is the backup set just made, so will not be deleted.
+0028.122 (0) Examining (for databases) backup set with group_id=0, nonce=805ccb694bb2, datestamp=1738436397 (Feb 01 2025 18:59:57)
+0028.122 (0) This backup set (1738436397) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0028.122 (0) Number of backup sets in history: 2; groups (files): 1
+0028.142 (0) Examining (for files) backup set with nonce=aed6ea043a2b, datestamp=1738436440 (Feb 01 2025 19:00:40)
+0028.142 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0028.162 (0) Examining (for files) backup set with nonce=805ccb694bb2, datestamp=1738436397 (Feb 01 2025 18:59:57)
+0028.162 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0028.176 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0028.206 (0) Resume backup (aed6ea043a2b, 0): finish run
+0028.251 (0) Decremented the semaphore (d) by 1
+0028.271 (0) Semaphore (d) unlocked
+0028.293 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0028.348 (0) The backup succeeded and is now complete
+0028.369 (0) No email will/can be sent - the user has not configured an email address.
+0028.376 (0) La sauvegarde a réussi et est maintenant terminée

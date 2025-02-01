@@ -1,0 +1,1 @@
+Ç¡g<?php exit; ?>a:2:{s:7:"content";a:1:{i:1;s:45:"http://localhost/la_vie_des_plantes/wp-admin/";}s:15:"key_version_all";i:5;}

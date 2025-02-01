@@ -1,0 +1,92 @@
+[2025-02-01 19:06:40 : INFO] - Re_Smush_It_Task server status: Online 
+[2025-02-01 19:06:44 : INFO] - A total of 12 tasks of type smush found and will be processed in this iteration 
+[2025-02-01 19:06:44 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2025-02-01 19:06:44 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2025-02-01 19:06:44 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2025-02-01 19:06:44 : INFO] - Re_Smush_It_Task - Attachment ID : 18, Started on : February 01, 2025 07:06:43 
+[2025-02-01 19:06:44 : INFO] - File: La-vie-des-plantes-LOGO.png, Compression quality: 60 
+[2025-02-01 19:06:45 : INFO] - Backing up the original image - 2025/01/La-vie-des-plantes-LOGO-updraft-pre-smush-original.png 
+[2025-02-01 19:06:46 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:46 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/La-vie-des-plantes-LOGO.png.The file was compressed from 29.13 KB to 9.05 KB, saving 68.94 percent, using WP-Optimize 
+[2025-02-01 19:06:46 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2025-02-01 19:06:46 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2025-02-01 19:06:46 : INFO] - Re_Smush_It_Task - Attachment ID : 77, Started on : February 01, 2025 07:06:43 
+[2025-02-01 19:06:46 : INFO] - File: cropped-La-vie-des-plantes-LOGO.png, Compression quality: 60 
+[2025-02-01 19:06:46 : INFO] - Backing up the original image - 2025/01/cropped-La-vie-des-plantes-LOGO-updraft-pre-smush-original.png 
+[2025-02-01 19:06:48 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:48 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/cropped-La-vie-des-plantes-LOGO.png.The file was compressed from 13.95 KB to 5.09 KB, saving 63.5 percent, using WP-Optimize 
+[2025-02-01 19:06:48 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2025-02-01 19:06:48 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2025-02-01 19:06:48 : INFO] - Re_Smush_It_Task - Attachment ID : 78, Started on : February 01, 2025 07:06:43 
+[2025-02-01 19:06:48 : INFO] - File: Favicon.png, Compression quality: 60 
+[2025-02-01 19:06:48 : INFO] - Backing up the original image - 2025/01/Favicon-updraft-pre-smush-original.png 
+[2025-02-01 19:06:49 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:49 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/Favicon.png.The file was compressed from 8.66 KB to 3.76 KB, saving 56.59 percent, using WP-Optimize 
+[2025-02-01 19:06:50 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2025-02-01 19:06:50 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2025-02-01 19:06:50 : INFO] - Re_Smush_It_Task - Attachment ID : 80, Started on : February 01, 2025 07:06:43 
+[2025-02-01 19:06:50 : INFO] - File: cropped-Favicon.png, Compression quality: 60 
+[2025-02-01 19:06:50 : INFO] - Backing up the original image - 2025/01/cropped-Favicon-updraft-pre-smush-original.png 
+[2025-02-01 19:06:52 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:52 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/cropped-Favicon.png.The file was compressed from 21.09 KB to 9.30 KB, saving 55.92 percent, using WP-Optimize 
+[2025-02-01 19:06:52 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2025-02-01 19:06:52 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2025-02-01 19:06:52 : INFO] - Re_Smush_It_Task - Attachment ID : 127, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:06:52 : INFO] - File: plantes.jpg, Compression quality: 60 
+[2025-02-01 19:06:53 : INFO] - Backing up the original image - 2025/01/plantes-updraft-pre-smush-original.jpg 
+[2025-02-01 19:06:55 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:55 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/plantes.jpg.The file was compressed from 198.39 KB to 123.27 KB, saving 37.86 percent, using WP-Optimize 
+[2025-02-01 19:06:55 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2025-02-01 19:06:55 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2025-02-01 19:06:55 : INFO] - Re_Smush_It_Task - Attachment ID : 137, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:06:55 : INFO] - File: cropped-cropped-La-vie-des-plantes-LOGO.png, Compression quality: 60 
+[2025-02-01 19:06:55 : INFO] - Backing up the original image - 2025/01/cropped-cropped-La-vie-des-plantes-LOGO-updraft-pre-smush-original.png 
+[2025-02-01 19:06:56 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:56 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/cropped-cropped-La-vie-des-plantes-LOGO.png.The file was compressed from 13.68 KB to 5.11 KB, saving 62.64 percent, using WP-Optimize 
+[2025-02-01 19:06:56 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2025-02-01 19:06:56 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2025-02-01 19:06:56 : INFO] - Re_Smush_It_Task - Attachment ID : 347, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:06:56 : INFO] - File: Capucine-coquelicot.png, Compression quality: 60 
+[2025-02-01 19:06:56 : INFO] - Backing up the original image - 2025/01/Capucine-coquelicot-updraft-pre-smush-original.png 
+[2025-02-01 19:06:58 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:58 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/Capucine-coquelicot.png.The file was compressed from 78.29 KB to 29.71 KB, saving 62.05 percent, using WP-Optimize 
+[2025-02-01 19:06:58 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2025-02-01 19:06:58 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2025-02-01 19:06:58 : INFO] - Re_Smush_It_Task - Attachment ID : 348, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:06:58 : INFO] - File: Capucine-trefle.png, Compression quality: 60 
+[2025-02-01 19:06:58 : INFO] - Backing up the original image - 2025/01/Capucine-trefle-updraft-pre-smush-original.png 
+[2025-02-01 19:06:59 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:06:59 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/Capucine-trefle.png.The file was compressed from 86.49 KB to 34.24 KB, saving 60.41 percent, using WP-Optimize 
+[2025-02-01 19:06:59 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2025-02-01 19:06:59 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2025-02-01 19:06:59 : INFO] - Re_Smush_It_Task - Attachment ID : 349, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:07:00 : INFO] - File: capucine-tournesol.png, Compression quality: 60 
+[2025-02-01 19:07:00 : INFO] - Backing up the original image - 2025/01/capucine-tournesol-updraft-pre-smush-original.png 
+[2025-02-01 19:07:02 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:07:02 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/01/capucine-tournesol.png.The file was compressed from 100.19 KB to 37.82 KB, saving 62.25 percent, using WP-Optimize 
+[2025-02-01 19:07:02 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2025-02-01 19:07:02 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2025-02-01 19:07:02 : INFO] - Re_Smush_It_Task - Attachment ID : 393, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:07:02 : INFO] - File: slider1-4.jpg, Compression quality: 60 
+[2025-02-01 19:07:02 : INFO] - Backing up the original image - 2025/02/slider1-4-updraft-pre-smush-original.jpg 
+[2025-02-01 19:07:05 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:07:05 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/02/slider1-4.jpg.The file was compressed from 158.58 KB to 84.75 KB, saving 46.56 percent, using WP-Optimize 
+[2025-02-01 19:07:05 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2025-02-01 19:07:05 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2025-02-01 19:07:05 : INFO] - Re_Smush_It_Task - Attachment ID : 405, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:07:05 : INFO] - File: fea73bf1cd16fd0019d4ecc7a3a0abf2.jpg, Compression quality: 60 
+[2025-02-01 19:07:05 : INFO] - Backing up the original image - 2025/02/fea73bf1cd16fd0019d4ecc7a3a0abf2-updraft-pre-smush-original.jpg 
+[2025-02-01 19:07:07 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:07:07 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/02/fea73bf1cd16fd0019d4ecc7a3a0abf2.jpg.The file was compressed from 89.13 KB to 68.04 KB, saving 23.66 percent, using WP-Optimize 
+[2025-02-01 19:07:07 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2025-02-01 19:07:07 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2025-02-01 19:07:07 : INFO] - Re_Smush_It_Task - Attachment ID : 408, Started on : February 01, 2025 07:06:44 
+[2025-02-01 19:07:07 : INFO] - File: slider1.jpg, Compression quality: 60 
+[2025-02-01 19:07:08 : INFO] - Backing up the original image - 2025/02/slider1-updraft-pre-smush-original.jpg 
+[2025-02-01 19:07:10 : INFO] - There were no WebP conversion tools found on your server. 
+[2025-02-01 19:07:10 : INFO] - Successfully optimized the image - C:\wamp64\www\la_vie_des_plantes/wp-content/uploads/2025/02/slider1.jpg.The file was compressed from 124.80 KB to 64.96 KB, saving 47.95 percent, using WP-Optimize 
+[2025-02-01 19:07:10 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2025-02-01 19:07:10 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2025-02-01 19:07:10 : INFO] - Successfully processed the queue (smush). 12 tasks were processed out of 12. 
+[2025-02-01 19:07:10 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2025-02-01 19:07:10 : INFO] - Cleaning up tasks of type (smush). A total of 12 tasks will be deleted. 

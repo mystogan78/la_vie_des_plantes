@@ -1,0 +1,1 @@
+ÇÄŸg<?php exit; ?>a:2:{s:7:"content";a:7:{s:2:"js";a:0:{}s:3:"css";a:0:{}s:5:"stamp";s:13:"1738437442418";s:9:"cachesize";s:17:"0 bytes (0 files)";s:16:"total_cache_size";s:17:"0 bytes (0 files)";s:9:"cacheTime";s:18:"2025-02-01 @ 20h15";s:9:"cachePath";s:78:"C:\wamp64\www\la_vie_des_plantes/wp-content/cache/wpo-minify/1738437330/assets";}s:15:"key_version_all";i:7;}
