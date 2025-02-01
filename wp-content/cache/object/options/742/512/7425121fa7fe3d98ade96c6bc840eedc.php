@@ -1,1 +1,1 @@
-ú~žg<?php exit; ?>a:2:{s:7:"content";s:184:"a:3:{s:8:"last_run";N;s:19:"last_wp_version_run";N;s:17:"migrations_passed";a:3:{i:0;s:23:"fix_optimized_size_keys";i:1;s:13:"fix_mime_type";i:2;s:29:"fix_avif_with_zero_dimensions";}}";s:15:"key_version_all";i:7;}
+:…žg<?php exit; ?>a:2:{s:7:"content";s:184:"a:3:{s:8:"last_run";N;s:19:"last_wp_version_run";N;s:17:"migrations_passed";a:3:{i:0;s:23:"fix_optimized_size_keys";i:1;s:13:"fix_mime_type";i:2;s:29:"fix_avif_with_zero_dimensions";}}";s:15:"key_version_all";i:7;}

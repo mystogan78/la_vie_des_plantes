@@ -1,63 +1,46 @@
 <?php
+/**
+ * File: advanced-cache.php
+ *
+ * W3 Total Cache advanced cache module.
+ *
+ * @package W3TC
+ */
 
-if (!defined('ABSPATH')) die('No direct access allowed');
+defined( 'ABSPATH' ) || die();
 
-// WP-Optimize advanced-cache.php (written by version: 3.8.0) (homeurl: http://localhost/la_vie_des_plantes/) (abspath: C:\wamp64\www\la_vie_des_plantes/) (do not change this line, it is used for correctness checks)
+global $w3tc_start_microtime;
+$w3tc_start_microtime = microtime( true );
 
-if (!defined('WPO_ADVANCED_CACHE')) define('WPO_ADVANCED_CACHE', true);
-
-$possible_plugin_locations = array(
-	defined('WP_PLUGIN_DIR') ? WP_PLUGIN_DIR.'/wp-optimize/cache' : false,
-	defined('WP_CONTENT_DIR') ? WP_CONTENT_DIR.'/plugins/wp-optimize/cache' : false,
-	dirname(__FILE__).'/plugins/wp-optimize/cache',
-	'C:\wamp64\www\la_vie_des_plantes\wp-content\plugins\wp-optimize\cache',
-);
-
-$plugin_location = false;
-
-foreach ($possible_plugin_locations as $possible_location) {
-	if (false !== $possible_location && @file_exists($possible_location.'/file-based-page-cache.php')) {
-		$plugin_location = $possible_location;
-		break;
-	}
-}
-
-if (false === $plugin_location) {
-	if (!defined('WPO_PLUGIN_LOCATION_NOT_FOUND')) define('WPO_PLUGIN_LOCATION_NOT_FOUND', true);
-	$protocol = $_SERVER['REQUEST_SCHEME'];
-	$host = $_SERVER['HTTP_HOST'];
-	$request_uri = $_SERVER['REQUEST_URI'];
-	if (strcasecmp('http://localhost/la_vie_des_plantes/', $protocol . '://' . $host . $request_uri) === 0) {
-		error_log('WP-Optimize: No caching took place, because the plugin location could not be found');
-	}
-} else {
-	if (!defined('WPO_PLUGIN_LOCATION_NOT_FOUND')) define('WPO_PLUGIN_LOCATION_NOT_FOUND', false);
-}
-
-if (is_admin()) { return; }
-
-if (!defined('WPO_CACHE_DIR')) define('WPO_CACHE_DIR', WP_CONTENT_DIR.'/wpo-cache');
-if (!defined('WPO_CACHE_CONFIG_DIR')) define('WPO_CACHE_CONFIG_DIR', WPO_CACHE_DIR.'/config');
-if (!defined('WPO_CACHE_FILES_DIR')) define('WPO_CACHE_FILES_DIR', WP_CONTENT_DIR.'/cache/wpo-cache');
-if (false !== $plugin_location) {
-	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', $plugin_location.'/extensions');
-} else {
-	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', 'C:\wamp64\www\la_vie_des_plantes\wp-content\plugins\wp-optimize\cache/extensions');
-}
-
-if (!@file_exists(WPO_CACHE_CONFIG_DIR . '/config-localhost.php')) { return; }
-
-$GLOBALS['wpo_cache_config'] = @json_decode(file_get_contents(WPO_CACHE_CONFIG_DIR . '/config-localhost.php'), true);
-
-if (empty($GLOBALS['wpo_cache_config'])) {
-	include_once(WPO_CACHE_CONFIG_DIR . '/config-localhost.php');
-}
-
-if (empty($GLOBALS['wpo_cache_config'])) {
-	error_log('WP-Optimize: Caching failed because the configuration data could not be loaded from the config file.');
+/**
+ * Abort W3TC loading if WordPress is upgrading.
+ */
+if ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) {
 	return;
 }
 
-if (empty($GLOBALS['wpo_cache_config']['enable_page_caching'])) { return; }
+if ( ! defined( 'W3TC_IN_MINIFY' ) ) {
+	if ( ! defined( 'W3TC_DIR' ) ) {
+		define( 'W3TC_DIR', ( defined( 'WP_PLUGIN_DIR' ) ? WP_PLUGIN_DIR : WP_CONTENT_DIR . '/plugins' ) . '/w3-total-cache' );
+	}
 
-if (false !== $plugin_location) { include_once($plugin_location.'/file-based-page-cache.php'); }
+	if ( ! @is_dir( W3TC_DIR ) || ! file_exists( W3TC_DIR . '/w3-total-cache-api.php' ) ) {
+		if ( defined( 'WP_ADMIN' ) ) {
+			// Only display errors in wp-admin.
+			printf( '<strong>W3 Total Cache Error:</strong> some files appear to be missing or out of place. Please re-install plugin or remove <strong>%s</strong>. <br />', __FILE__ );
+		}
+	} else {
+		require_once W3TC_DIR . '/w3-total-cache-api.php';
+
+		if ( class_exists( '\W3TC\Dispatcher' ) ) {
+			$w3tc_redirect = \W3TC\Dispatcher::component( 'Mobile_Redirect' );
+			$w3tc_redirect->process();
+
+			$w3tc_config = \W3TC\Dispatcher::config();
+			if ( $w3tc_config->get_boolean( 'pgcache.enabled' ) ) {
+				$o = \W3TC\Dispatcher::component( 'PgCache_ContentGrabber' );
+				$o->process();
+			}
+		}
+	}
+}
